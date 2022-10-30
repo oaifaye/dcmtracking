@@ -1,0 +1,20 @@
+DEEPSORT:
+  # 物体匹配的阈值。距离较大的样本被认为是无效匹配。
+  MAX_DIST: 0.5
+  # 最小置信度，小于这个值，认为是无效物体
+  MIN_CONFIDENCE: 0.3
+  # 执行nms时，最大重叠占比，两个bbox的iou大于这个值，将认为是同一物体
+  NMS_MAX_OVERLAP: 0.5
+  # 执行IOU匹配时，大于此值的关联被忽略。
+  MAX_IOU_DISTANCE: 0.7
+  # 在删除track之前的最大miss数。
+  MAX_AGE: 70
+  # 在一个track被确认之前的连续探测次数。如果在第一个n_init帧内发生miss，则track状态被设置为' Deleted '。
+  N_INIT: 3
+  # 是否需要在原图上画框
+  NEED_DRAW_BBOXES: False
+  # 是否需要标注速度，速度单位pix/s，只有need_draw_bboxes=True时起作用
+  NEED_SPEED: True
+  # 是否需要标注运动方向，只有need_draw_bboxes=True时起作用
+  NEED_ANGLE: True
+
