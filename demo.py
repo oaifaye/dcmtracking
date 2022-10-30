@@ -67,4 +67,4 @@ if __name__ == '__main__':
     # 执行yolov5s+deepsort
     demo_yolov5_deep_sort_tracker('data/test5.mp4', 'data/out5.flv')
     # 执行yolovfastestv2+deepsort
-    demo_yolo_fastestv2_deep_sort_tracker('data/test3.mp4', 'data/out3_f.flv')
+    demo_yolo_fastestv2_deep_sort_tracker('data/test5.mp4', 'data/out5_f.flv')

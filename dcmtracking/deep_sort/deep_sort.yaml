@@ -12,7 +12,7 @@ DEEPSORT:
   # 在一个track被确认之前的连续探测次数。如果在第一个n_init帧内发生miss，则track状态被设置为' Deleted '。
   N_INIT: 3
   # 是否需要在原图上画框
-  NEED_DRAW_BBOXES: False
+  NEED_DRAW_BBOXES: True
   # 是否需要标注速度，速度单位pix/s，只有need_draw_bboxes=True时起作用
   NEED_SPEED: True
   # 是否需要标注运动方向，只有need_draw_bboxes=True时起作用
