@@ -16,5 +16,5 @@ DEEPSORT:
   # 是否需要标注速度，速度单位pix/s，只有need_draw_bboxes=True时起作用
   NEED_SPEED: True
   # 是否需要标注运动方向，只有need_draw_bboxes=True时起作用
-  NEED_ANGLE: True
+  NEED_ANGLE: False
 
